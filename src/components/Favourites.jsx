@@ -1,3 +1,4 @@
+import { LucideHeading4 } from 'lucide-react';
 import React, { useState, useEffect } from 'react';
 
 const Favourites = ({ children, properties }) => {
@@ -121,7 +122,7 @@ const Favourites = ({ children, properties }) => {
           )}
           <div>
             {favorites.length === 0 ? (
-              <p>Drag properties here to add to favorites</p>
+              <h5 className='fav-default-text'>Drag properties here to add to favorites</h5>
             ) : (
               properties
                 .filter(property => favorites.includes(property.id))
