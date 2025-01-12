@@ -1,0 +1,124 @@
+/* Search form styles */
+.search-form {
+    /* display: grid; */
+    /* grid-template-columns: 3fr 1fr; */
+    background-color: var(--white);
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Container for both the image and form */
+  .search-form-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+    margin-top: 7%;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) ;
+    border: 1px solid #ddd ;
+    max-width: 90%; 
+    gap:2rem;
+  }
+  
+  .left-image{
+    align-items: center;
+  }
+  
+  /* Left side image styling */
+  .left-image img {
+    max-width: 90%;
+    height: 90%;
+    width: 130%;
+    border-radius: 15px;
+  }
+  
+  .search-form-grid {
+    display: grid; 
+    grid-template-columns: repeat(1fr 3fr);
+    gap: 1.2rem;
+  }
+  
+  .full-width {
+    grid-column: span 2;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+  
+  .form-group select,
+  .form-group input {
+    width: 100%;
+    padding: 0.9rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .search-button {
+    grid-column:span 2;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    transition: background-color 0.3s;
+  }
+  
+  .search-button:hover {
+    opacity: 0.9;
+    background-color: var(--primary-color);
+    color: var(--white);
+    height: 55px;
+  }
+  
+  .show-all-button{
+    grid-column:span 2;
+    background-color: #c3c2c2;
+    color: #666666;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    transition: background-color 0.3s;
+  }
+  
+  .show-all-button:hover {
+    opacity: 0.9;
+    background-color: var(--primary-color);
+    color: var(--white);
+  }
+  
+
+  /* Media Queries */
+@media (max-width: 768px) {
+    .search-form {
+      margin: 1rem;
+      padding: 1rem;
+    }
+}
+  

@@ -195,11 +195,11 @@ function SearchForm({ onSearch }) {
               onChange={handleChange}
             >
               <option value="">Any</option>
-              <option value="abc">ABC</option>
-              <option value="ab">AB</option>
-              <option value="c">C</option>
-              <option value="cba">CBA</option>
-              <option value="ba">BA</option>
+              <option value="BR%">BR5</option>
+              <option value="y01">Y01</option>
+              <option value="BD23">BD23</option>
+              <option value="M3">M3</option>
+              <option value="ba">H20</option>
             </select>
           </div>
 

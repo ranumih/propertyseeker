@@ -1,5 +1,11 @@
 
 @import url(./styles/header.css);
+@import url(./styles/common.css);
+@import url(./styles/searchform.css);
+@import url(./styles/propertylist.css);
+@import url(./styles/favourite.css );
+@import url(./styles/footer.css);
+@import url(./styles/propertyview.css);
 
 
 .App {

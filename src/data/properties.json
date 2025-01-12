@@ -16,16 +16,16 @@
           "assets/property1/5.jpeg",
           "assets/property1/6.jpeg"     
         ],
-        "floorplan":"assets/property1/FloorPlan.jpg",
+        "floorplan":"assets/property1/FloorPlan.png",
         "url":"properties/prop2.html",
         "added": {
                 "month":"October",
                 "day":12,
                 "year":2022 
         },
-        "postcode": "NW1",
-        "title": "Modern Appartment sample",
-        "shortDescription": "Beautiful 3-bedroom house with garden"
+        "postcode": "BR5",
+        "title": "Modern House in Petts Wood BR5",
+        "shortDescription": "Explore this beautiful 3-bedroom house nestled in a peaceful neighborhood, featuring a spacious garden perfect for relaxation and outdoor activities."
       },
       {
         "id": "prop2",
@@ -36,8 +36,14 @@
         "description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
         "location":"Crofton Road Orpington BR6",
         "picture":[
-          "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+          "assets/property2/1.jpeg",
+          "assets/property2/2.jpeg",
+          "assets/property2/3.jpeg",
+          "assets/property2/4.jpeg",
+          "assets/property2/5.jpeg",
+          "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83"
         ],
+        "floorplan": "assets/property2/FloorPlan.png",
         "url":"properties/prop2.html",  
         "added": {
           "month":"September",
@@ -46,7 +52,7 @@
         },
         "postcode": "BD23",
         "title": "Newleeds Road, Kettlewell, Skipton, North Yorkshire, BD23",
-        "shortDescription": "Modern 2-bedroom apartment with balcony"
+        "shortDescription": "Experience luxury living in this modern 2-bedroom apartment, complete with a stylish balcony that offers breathtaking views of the surrounding mountains"
       },
       {
         "id": "prop3",
@@ -57,40 +63,52 @@
         "description": "This exceptionally well-presented apartment has been finished to the highest of standards. Boasting unmatched lateral living across three separate floors, The Orchid Suite is sure to appeal to a range of parties searching for premium city centre living. The property is entered via the 45th floor, and you are immediately greeted to a stunning curved entrance reception area, leading through to a sizeable open plan reception, and kitchen/dining room. Situated on this floor also is a utility room, and WC.",
         "location":"Beetham Tower, 301 Deansgate, Manchester, M3",
         "picture":[
-          "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83"
+          "assets/property3/6.jpeg",
+          "assets/property3/2.jpeg",
+          "assets/property3/3.jpeg",
+          "assets/property3/4.jpeg",
+          "assets/property3/5.jpeg",
+          "assets/property3/1.jpeg"
         ],
+        "floorplan":"assets/property3/FloorPlan.png",
         "url":"properties/prop3.html",
         "added": {
                   "month":"October",
                   "day":10,
                   "year":2024
         },
-        "postcode": "SW1",
-        "title": "Victorian Townhouse",
+        "postcode": "BD23",
+        "title": "Newleeds Road, Kettlewell, Skipton, North Yorkshire, BD23",
         "shortDescription": "Long a staple of Manchester City Centre skyline, Beetham Tower has continuously been recognized as one of Manchester's most iconic developments."
       },
       {
         
         "id": "prop4",
-        "type": "House",
-        "bedrooms": 4,
+        "type": "Flat",
+        "bedrooms": 2,
         "price": 200000,
         "tenure":"Freehold",
-        "description": "This impressive family home is designed for modern living with a spacious lounge, and a dining room with access to the back garden. The hub of the home is a generous open-plan kitchen with breakfast and family areas also leading to the garden via French doors. A utility room adjacent to the kitchen has convenient access to the integral double garage. An elegant main bedroom with Juliet balcony and full en suite is upstairs, along with three further double bedrooms and a family bathroom with separate shower",
-        "location":"Carnethie Street Rosewell EH24 9AU",
+        "description": "This beautiful apartment has an entrance hall leading to the superb open plan living space which has two tall windows from which to enjoy the wonderful view of York Minster. The kitchen is fitted with a range of stylish units complemented by luxury granite worktops incorporating a gas hob, extractor hood, double oven/grill, integrated fridge/freezer and a dishwasher. There is plenty of space for a dining table and chairs, and the lounge area has a wonderful cosy feel with a gas fire in a feature surround.",
+        "location":"The Purey Cust, York, YO1",
         "picture":[
-          "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+          "assets/property4/1.png",
+          "assets/property4/2.jpeg",
+          "assets/property4/3.jpeg",
+          "assets/property1/4.jpeg",
+          "assets/property4/5.png",
+          "assets/property4/6.png"
         ],
+        "floorplan":"assets/property4/FloorPlan.png",
         "url":"properties/prop3.html",
         "added": {
                   "month":"january",
                   "day":10,
                   "year":2025
         },
-        "postcode": "SW1",
-        "title": "Victorian Townhouse",
-        "shortDescription": "Elegant 4-bedroom Victorian property"
-      }, 
+        "postcode": "Y01",
+        "title": "The Purey Cust, New York, YO1",
+        "shortDescription": "Elegant 2 double-bedroom first-floor apartment, perfectly situated in the heart of the city center, offering convenient access to shops, restaurants, and more"
+      },
       {
       "id": "prop5",
       "type": "House",
@@ -98,62 +116,80 @@
       "price": 450000,
       "tenure":"Freehold",
       "description": "This impressive family home is designed for modern living with a spacious lounge, and a dining room with access to the back garden. The hub of the home is a generous open-plan kitchen with breakfast and family areas also leading to the garden via French doors. A utility room adjacent to the kitchen has convenient access to the integral double garage. An elegant main bedroom with Juliet balcony and full en suite is upstairs, along with three further double bedrooms and a family bathroom with separate shower",
-      "location":"Carnethie Street Rosewell EH24 9AU",
+      "location":"Carnethie Street Rosewell BR5",
       "picture":[
-        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83"
+          "assets/property5/1.jpeg",
+          "assets/property5/2.jpeg",
+          "assets/property5/3.jpeg",
+          "assets/property5/4.jpeg",
+          "assets/property5/5.jpeg",
+          "assets/property5/6.jpeg"
       ],
+      "floorplan":"assets/property5/FloorPlan.png",
       "url":"properties/prop3.html",
       "added": {
                 "month":"January",
                 "day":1,
                 "year":2025
       },
-      "postcode": "C",
-      "title": "Victorian Townhouse",
-      "shortDescription": "Elegant 4-bedroom Victorian property"
+      "postcode": "BD23",
+      "title": "Croftlands Gardens, Bolton-le-Sands BR5 ",
+      "shortDescription": "Charming home in Croftlands Gardens, Bolton-le-Sands, offering cozy living with beautiful surroundings."
     }, 
     {
       
       "id": "prop6",
-      "type": "Flat",
+      "type": "House",
       "bedrooms": 3,
-      "price": 300000,
+      "price": 400000,
       "tenure":"Freehold",
-      "description": "This impressive family home is designed for modern living with a spacious lounge, and a dining room with access to the back garden. The hub of the home is a generous open-plan kitchen with breakfast and family areas also leading to the garden via French doors. A utility room adjacent to the kitchen has convenient access to the integral double garage. An elegant main bedroom with Juliet balcony and full en suite is upstairs, along with three further double bedrooms and a family bathroom with separate shower",
-      "location":"Carnethie Street Rosewell EH24 9AU",
+      "description": "Located in one of the UK's fastest-growing neighborhoods, this exclusive off-market development is currently in construction and will be extremely sought after in the residential rental market /n Enquire today to register your interest in a luxury residential development in the Ancoats district in the heart of Manchester city center.",
+      "location":"Great Ancoats Street, Manchester, Greater Manchester, M4",
       "picture":[
-      "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83"
+          "assets/property6/5.jpeg",
+          "assets/property6/2.jpeg",
+          "assets/property6/3.jpeg",
+          "assets/property6/4.jpeg",
+          "assets/property6/1.jpeg",
+          "assets/property6/6.jpeg"
       ],
+      "floorplan":"assets/property6/FloorPlan.png",
       "url":"properties/prop3.html",
       "added": {
                 "month":"October",
                 "day":10,
                 "year":2024
       },
-      "postcode": "BA",
-      "title": "Victorian Townhouse",
-      "shortDescription": "Elegant 4-bedroom Victorian property"
+      "postcode": "M3",
+      "title": "Great Ancoats Street, Manchester, Greater M3",
+      "shortDescription": "Stylish 3-bedroom home in Manchester featuring a private pool and modern amenities"
     },
     {
     "id": "prop7",
     "type": "Flat",
     "bedrooms": 2,
-    "price": 519995,
+    "price": 359995,
     "tenure":"Freehold",
     "description": "This impressive family home is designed for modern living with a spacious lounge, and a dining room with access to the back garden. The hub of the home is a generous open-plan kitchen with breakfast and family areas also leading to the garden via French doors. A utility room adjacent to the kitchen has convenient access to the integral double garage. An elegant main bedroom with Juliet balcony and full en suite is upstairs, along with three further double bedrooms and a family bathroom with separate shower",
-    "location":"Carnethie Street Rosewell EH24 9AU",
+    "location":"Beetham Tower, 301 Deansgate, Manchester M3",
     "picture":[
-      "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83"
-    ],
-    "url":"properties/prop3.html",
-    "added": {
-              "month":"January",
-              "day":4,
-              "year":2025
-    },
-    "postcode": "BA",
-    "title": "Victorian Townhouse",
-    "shortDescription": "Elegant 4-bedroom Victorian property"
+          "assets/property7/1.jpeg",
+          "assets/property7/2.jpeg",
+          "assets/property7/3.jpeg",
+          "assets/property7/4.jpeg",
+          "assets/property7/5.jpeg",
+          "assets/property7/6.jpeg"
+      ],
+      "floorplan":"assets/property7/FloorPlan.png",
+      "url":"properties/prop3.html",
+      "added": {
+                "month":"January",
+                "day":4,
+                "year":2025
+      },
+      "postcode": "M3",
+      "title": "Hilton Mancheste Tower M3",
+      "shortDescription": "Long a staple of Manchester City Centre skyline, Beetham Tower has continuously been recognized as one of Manchester's most iconic developments"
   } 
     ]
   }

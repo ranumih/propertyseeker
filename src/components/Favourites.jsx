@@ -70,7 +70,8 @@ const Favourites = ({ children, properties }) => {
     const propertyId = e.dataTransfer.getData('propertyId'); 
     e.currentTarget.classList.remove('dragging');
     const dropZone = document.elementFromPoint(e.clientX, e.clientY);
-    if (!dropZone || !dropZone.classList.contains('droppable')) {
+    console.log("Dropzone"+ dropZone);
+    if (!dropZone || !dropZone.classList.contains('favorites-container')) {
       removeFromFavourite(propertyId);
       console.log(`Removed property with ID: ${propertyId}`);
     }
@@ -103,8 +104,9 @@ const Favourites = ({ children, properties }) => {
         {showFavorites ? 'Hide Favourites' : 'Show Favourites'}
       </button>
       {showFavorites && (
+
         <div 
-          className="favorites-container droppable"
+          className="favorites-container"
           onDragOver={handleDragOver}
           onDragLeave={handleDragLeave}
           onDrop={handleDrop}
@@ -113,8 +115,8 @@ const Favourites = ({ children, properties }) => {
           {showClearConfirmation && (
             <div className="clear-confirmation">
               <p>Are you sure you want to clear all favorites?</p>
-              <button onClick={confirmClearFavorites}>Yes</button>
-              <button onClick={cancelClearFavorites}>No</button>
+              <button className="clear-yes-btn confirm-btn" onClick={confirmClearFavorites}>Yes</button>
+              <button className="clear-no-btn confirm-btn" onClick={cancelClearFavorites}>No</button>
             </div>
           )}
           <div>
@@ -131,11 +133,11 @@ const Favourites = ({ children, properties }) => {
                         onDragStart={(e) => handleDragStartRemove(e,property.id)}
                         onDragEnd={handleDragEndRemove}
                     >
-                    <img src={property.picture} alt={property.title} className="favorite-item-img" />
+                    <img src={property.picture[0]} alt={property.title} className="favorite-item-img" />
                     <div>
                       <h4 className='name-in-fav'>{property.title}</h4>
                       <p className='price-in-fav'>£ {property.price}</p>
-                      <button onClick={() => toggleFavorite(property.id)}>Remove</button>
+                      <button className="remove-fav-button" onClick={() => toggleFavorite(property.id)}>Remove</button>
                     </div>
                   </div>
                 ))
