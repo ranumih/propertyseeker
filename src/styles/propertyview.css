@@ -1,3 +1,5 @@
+@import url('./common.css');
+
 /* Property details page */
 .property-view-overlay {
   position: fixed;
@@ -27,13 +29,15 @@
   right: 1rem;
   background: none;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 
 .property-view-content {
   display: flex;
   gap: 2rem;
+  font-size: 0.8rem; 
+  font-family: 'Poppins', Arial, sans-serif; 
 }
 
 .property-view-left {
@@ -46,7 +50,9 @@
 
 .property-view-header {
   text-align: left;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem; 
+  font-family: 'Poppins', Arial, sans-serif; /* Ensure the same font family */
 }
 
 .property-view-images {
@@ -76,8 +82,10 @@
 }
 
 .property-view-details {
+  font-size: 1rem;
   text-align: left;
   width: 100%;
+  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .property-view-photos {
@@ -94,15 +102,41 @@
 }
 
 .floorplan-image {
-  height: 400px;
+  height: 300px;
   width: auto;
   max-width: 100%;
   max-height: 100vh;
 }
 
 .property-view-map {
-  width: 100%;
-  height: 400px;
+  height: 300px;
+  width: auto;
+  font-size: 1rem; 
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.react-tabs__tab {
+  background-color: #e8e8e8; /* Light grey background color */
+  color: var(--primary-color); /* Primary color text */
+  border-radius: 4px; /* Optional: add border radius for rounded corners */
+  padding: 0.5rem 1rem; /* Add padding for better spacing */
+  margin-right: 0.5rem; /* Add margin between tabs */
+}
+
+.react-tabs__tab--selected {
+  background-color: black;
+  border-radius: 4px;
+}
+
+.react-tabs__tab-panel--selected {
+  box-shadow: 0 0 10px rgba(207, 207, 208, 0.4);
+  background-color: #e8e8e8; 
+  border-radius: 8px;
+  padding: 1rem; 
+}
+
+.react-tabs__tab-panel {
+  min-height: 300px; /* Ensure all tab panels have the same height as the floorplan container */
 }
 
 @media (max-width: 768px) {

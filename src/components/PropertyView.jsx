@@ -46,7 +46,7 @@ const PropertyView = ({ property, onClose }) => {
               </TabList>
 
               <TabPanel>
-                <p>{property.description}</p>
+                <p style={{ textAlign: 'justify' }}>{property.description}</p>
               </TabPanel>
               <TabPanel>
                 <ul>
