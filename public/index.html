@@ -1,21 +1,29 @@
 <!DOCTYPE html>
-  <html lang="en">
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSP to allow resource loading only from same-origin and trusted sources,
+  helping prevent XSS and data injection attacks. -->
+
+  <!-- Content Security Policy -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' https://trusted-scripts.com https://maps.googleapis.com;
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    font-src 'self' https://fonts.gstatic.com;
+    img-src 'self' data: https://maps.gstatic.com;
+    connect-src 'self';
+    frame-src 'self' https://maps.google.com https://www.google.com;
+  ">
+
+  <title>Property Seeker</title>
   <link rel="stylesheet" href="index.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Property Seeker</title>
-    </head>
-
-    <body>
-      <!-- Root div where the React application will be rendered -->
-      <!-- The UI will be controlled by the React application and rendered inside the root div -->
-      <div id="root"></div>
-
-      <!-- Script tag to include the main React file -->
-      <script type="module" src="App.js"></script>
-    </body>
-    
-  </html>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="App.js"></script>
+</body>
+</html>

@@ -49,12 +49,12 @@ const PropertyView = ({ property, onClose }) => {
                 <p style={{ textAlign: 'justify' }}>{property.description}</p>
               </TabPanel>
               <TabPanel>
-                <ul>
-                  <li>Price: £{property.price}</li>
-                  <li>Bedrooms: {property.bedrooms}</li>
-                  <li>Tenure: {property.tenure}</li>
-                  <li>Postcode: {property.postcode}</li>
-                </ul>
+              <div className="property-details-view">
+                  <p><strong>Price:</strong> £{property.price}</p>
+                  <p><strong>Bedrooms:</strong> {property.bedrooms}</p>
+                  <p><strong>Tenure:</strong> {property.tenure}</p>
+                  <p><strong>Postcode:</strong> {property.postcode}</p>
+                </div>
               </TabPanel>
               <TabPanel>
                 <img src={property.floorplan} alt="Floorplan" className="floorplan-image" />

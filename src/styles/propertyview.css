@@ -51,8 +51,13 @@
 .property-view-header {
   text-align: left;
   margin-bottom: 2rem;
-  font-size: 1.2rem; 
+  font-size: 1rem; 
   font-family: 'Poppins', Arial, sans-serif; /* Ensure the same font family */
+}
+
+.property-view-header p{
+  text-align: justify;
+  font-size: 0.85rem;
 }
 
 .property-view-images {
@@ -114,6 +119,18 @@
   font-size: 1rem; 
   font-family: 'Poppins', Arial, sans-serif;
 }
+
+.property-details-view {
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.property-details p {
+  margin: 0.5rem 0;
+}
+
 
 .react-tabs__tab {
   background-color: #e8e8e8; /* Light grey background color */

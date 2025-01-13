@@ -161,3 +161,24 @@
     }
 }
   
+@media (max-width: 450px) {
+  .favorites-toggle {
+    font-size: 0; /* Hides the original text */
+  }
+
+  .favorites-toggle::before {
+    content: "❤"; 
+    font-size: 16px;
+    top: 5px; 
+    right: 5px; 
+    padding: 0.5rem;
+  }
+
+  .fav-default-text{
+    font-size: 0;
+  }
+
+
+
+
+}

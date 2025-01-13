@@ -44,6 +44,7 @@
           "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83"
         ],
         "floorplan": "assets/property2/FloorPlan.png",
+        "maplink":"https://maps.google.com/maps?q=${property.latitude},${property.longitude}&z=15&output=embed",
         "url":"properties/prop2.html",  
         "added": {
           "month":"September",
@@ -71,6 +72,7 @@
           "assets/property3/1.jpeg"
         ],
         "floorplan":"assets/property3/FloorPlan.png",
+        "maplink":"https://maps.google.com/maps?q=${property.latitude},${property.longitude}&z=15&output=embed",
         "url":"properties/prop3.html",
         "added": {
                   "month":"October",
@@ -99,6 +101,7 @@
           "assets/property4/6.png"
         ],
         "floorplan":"assets/property4/FloorPlan.png",
+        "maplink":"https://maps.google.com/maps?q=${property.latitude},${property.longitude}&z=15&output=embed",
         "url":"properties/prop3.html",
         "added": {
                   "month":"january",
@@ -126,6 +129,7 @@
           "assets/property5/6.jpeg"
       ],
       "floorplan":"assets/property5/FloorPlan.png",
+      "maplink":"https://maps.google.com/maps?q=${property.latitude},${property.longitude}&z=15&output=embed",
       "url":"properties/prop3.html",
       "added": {
                 "month":"January",
@@ -154,6 +158,7 @@
           "assets/property6/6.jpeg"
       ],
       "floorplan":"assets/property6/FloorPlan.png",
+      "maplink":"https://maps.google.com/maps?q=${property.latitude},${property.longitude}&z=15&output=embed",
       "url":"properties/prop3.html",
       "added": {
                 "month":"October",
@@ -181,6 +186,7 @@
           "assets/property7/6.jpeg"
       ],
       "floorplan":"assets/property7/FloorPlan.png",
+      "maplink":"https://maps.google.com/maps?q=${property.latitude},${property.longitude}&z=15&output=embed",
       "url":"properties/prop3.html",
       "added": {
                 "month":"January",
